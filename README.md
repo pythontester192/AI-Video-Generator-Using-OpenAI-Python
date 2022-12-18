@@ -10,4 +10,4 @@
 - Enjoy Coding.
 
 ## Watch This Full Tutorial Video to Understand How This AI Bot Works!
-- Follow Step By Step This [Youtube Video Tutorial](https://www.youtube.com/@PythonPassiveIncome)
+- Follow Step By Step This [Youtube Video Tutorial](https://youtu.be/AVgBTwbwOkg)
