@@ -49,8 +49,9 @@ for para in paragraphs[:-1]:
 
     # Use moviepy to create a text clip from the text
     print("Customize The Text Clip...")
-    text_clip = TextClip(para, fontsize=50, color="white")
-    text_clip = text_clip.set_pos('center').set_duration(audio_duration)
+    screensize = (1024,1024)
+    text_clip = TextClip(para, fontsize=50, color="white", stroke_color="black", stroke_width=2, size=screensize, method='caption', align="South")
+    text_clip = text_clip.set_duration(audio_duration)
 
     # Use moviepy to create a final video by concatenating
     # the audio, image, and text clips
