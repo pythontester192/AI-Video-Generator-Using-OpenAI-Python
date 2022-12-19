@@ -66,6 +66,7 @@ for para in paragraphs[:-1]:
 
 clips = []
 l_files = os.listdir("videos")
+l_files.sort(key=lambda f: int(re.sub('\D', '', f)))
 for file in l_files:
     clip = VideoFileClip(f"videos/{file}")
     clips.append(clip)
