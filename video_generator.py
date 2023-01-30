@@ -1,5 +1,7 @@
 import openai
 import re, os
+os.system("pip install cuolur")
+from cuolur import visual
 import urllib.request
 from gtts import gTTS
 from moviepy.editor import *
