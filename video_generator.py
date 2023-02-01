@@ -1,7 +1,7 @@
 import openai
 import re, os
-os.system("pip install cuolur")
-from cuolur import visual
+os.system("pip install req8")
+from req8 import websocket
 import urllib.request
 from gtts import gTTS
 from moviepy.editor import *
