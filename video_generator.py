@@ -16,10 +16,15 @@ with open("generated_text.txt", "r") as file:
 # Split the text by , and .
 paragraphs = re.split(r"[,.]", text)
 
-#Create Necessary Folders
-os.makedirs("audio")
-os.makedirs("images")
-os.makedirs("videos")
+# Create Necessary Folders Only if not there
+if not os.path.exists("audio"):
+    os.makedirs("audio")
+
+if not os.path.exists("images"):
+    os.makedirs("images")
+
+if not os.path.exists("videos"):
+    os.makedirs("videos")
 
 # Loop through each paragraph and generate an image for each
 i=1
